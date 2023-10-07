@@ -1,0 +1,29 @@
+.navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(154, 163, 23);
+    font-size: 20px;
+    height: 80px;
+}
+.lista{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.lista > li{
+    margin: 30px;
+}
+
+.active{
+    color: rgb(182, 72, 29);
+}
+
+.inactive{
+    color:black
+}
+a{
+    text-decoration: none;
+}
